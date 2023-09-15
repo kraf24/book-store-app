@@ -1,0 +1,11 @@
+<div class="header-standalone container-border">
+  <groupui-header>
+    <groupui-headline heading="h5">Book store</groupui-headline>
+    <groupui-action-area theme="vwag" class="header-search">
+      <groupui-search-field (input)="fillSearch($event)" />
+    </groupui-action-area>
+      <groupui-action-area-item onclick="document.querySelector('groupui-flyout')['visible'] = true">
+        <groupui-icon name="shopping-cart-32"></groupui-icon>
+      </groupui-action-area-item>
+  </groupui-header>
+</div>

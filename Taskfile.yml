@@ -1,0 +1,28 @@
+version: "3"
+
+silent: true
+
+tasks:
+  verify:
+    cmds:
+      - task: format
+      - task: test
+      - task: build
+
+  test:
+    cmds: [npm run test]
+
+  install:
+    cmds: [npm ci]
+
+  build:
+    cmds: [npm run build]
+
+  kill:
+    cmds: [./kill.sh]
+
+  run:
+    cmds:
+      - task: kill
+      - mkdir -p log
+      - bash -ec 'nohup "npm" run start > log/project.log &'

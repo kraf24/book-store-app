@@ -1,0 +1,61 @@
+version: "3"
+
+silent: true
+
+tasks:
+  verify:
+    cmds:
+      - task: build
+      - task: clean
+
+  lint:
+    cmds: [./gradlew spotlessApply]
+
+  check-lint:
+    desc: checks if the linter has been run
+    cmds:
+      - ./gradlew spotlessCheck
+  test:
+    cmds: [./gradlew clean test]
+
+  build:
+    cmds: [./gradlew build]
+
+  kill:
+    cmds: [ ./kill.sh ]
+
+  package:
+    cmds:
+      [
+        docker buildx build --platform linux/arm64 -t room-booking-backend:development .,
+      ]
+
+  dev:
+    cmds:
+      - docker run -p 127.0.0.1:8080:8080 room-booking-backend:development
+
+  redev:
+    cmds:
+      - task: kill
+      - task: clean
+      - task: build
+      - task: package
+      - task: dev
+
+  publish-docker-image:
+    desc: publish docker image to ecr
+    cmds:
+      - docker image tag room-booking-backend:development "{{.BACKEND_REPOSITORY}}:{{.TAG}}"
+      - docker image push "{{.BACKEND_REPOSITORY}}:{{.TAG}}"
+
+  clean:
+    cmds: [./gradlew clean]
+
+  run:
+    env:
+      SPRING_PROFILES_ACTIVE: test
+    cmds:
+      - task: kill
+      - mkdir -p ../log
+      - bash -ec 'nohup "./gradlew" clean bootRun > ../log/backend.log &'
+

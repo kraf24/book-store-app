@@ -1,0 +1,23 @@
+<groupui-flyout position="right">
+  <div *ngFor="let cartBook of cartBooks">
+    <groupui-card>
+      <div id="cart-book-info">
+        <groupui-text id="name">
+          {{cartBook.name}}
+        </groupui-text>
+        <groupui-text id="price">
+          {{cartBook.price}}$
+        </groupui-text>
+      </div>
+    </groupui-card>
+  </div>
+
+  <div id="total-information">
+    <groupui-text id="total">
+      Total price:{{countTotal()}}$
+    </groupui-text>
+    <groupui-button (click)="redirectToRickRoll()" [disabled]="noBooksInCart()">
+      Order Books
+    </groupui-button>
+  </div>
+</groupui-flyout>

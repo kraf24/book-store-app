@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+groupui-headline {
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+groupui-text {
+  text-align: center;
+}

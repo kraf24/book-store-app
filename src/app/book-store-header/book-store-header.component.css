@@ -1,0 +1,20 @@
+.header-standalone {
+  padding: 0 0 30px;
+}
+
+.header-standalone groupui-headline {
+  flex: 1;
+  color: var(--groupui-vwag-color-white);
+}
+
+.header-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-standalone groupui-header {
+  border-radius: 2px 2px 0 0;
+  display: flex;
+  justify-content: center;
+}

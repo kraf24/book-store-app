@@ -1,0 +1,11 @@
+<div class="header">
+  <groupui-button type="button" (click)="goBack()">go back</groupui-button>
+  <groupui-headline>{{book?.name}}</groupui-headline>
+</div>
+<div class="footer">
+  <img ngSrc="assets/clash_of_clans.png" alt="Flowers in Chania" height="333" width="498">
+  <div id="price">
+  <groupui-button (click)="addToCard()">Add to cart</groupui-button>
+  <groupui-text>{{book?.price}}$</groupui-text>
+  </div>
+</div>

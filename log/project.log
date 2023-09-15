@@ -1,0 +1,105 @@
+
+> book-store@0.0.0 start
+> ng serve --proxy-config proxy.conf.json
+
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                  |  Raw Size
+vendor.js                                                                                               | vendor                 |   2.92 MB |
+polyfills.js                                                                                            | polyfills              | 333.18 kB |
+styles.css, styles.js                                                                                   | styles                 | 244.40 kB |
+main.js                                                                                                 | main                   |  47.30 kB |
+runtime.js                                                                                              | runtime                |  14.13 kB |
+
+| Initial Total          |   3.54 MB
+
+Lazy Chunk Files                                                                                        | Names                  |  Raw Size
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-args-t-d31334.js | -                      |   1.50 MB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-date-p-007f98.js | -                      | 208.22 kB |
+polyfills-core-js.js                                                                                    | polyfills-core-js      | 152.33 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-card_1-3ed099.js | -                      | 144.27 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-showca-e407d2.js | -                      |  57.40 kB |
+default-node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_floati-6cebd0.js | -                      |  54.87 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-button-64e7a4.js | -                      |  36.33 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-search-d6c223.js | -                      |  34.82 kB |
+polyfills-dom.js                                                                                        | polyfills-dom          |  26.76 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-multis-56ad1f.js | -                      |  23.76 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-dropdo-8fac87.js | -                      |  22.64 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-modal_-688599.js | -                      |  20.69 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-chip_e-48be82.js | -                      |  20.25 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-range--49314c.js | -                      |  19.38 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-tabs_e-70e758.js | -                      |  17.29 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-slider-c9fb9e.js | -                      |  16.16 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-pagina-efbf85.js | -                      |  16.13 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_shadow-css-028-e23b2a.js | shadow-css-02866686-js |  14.98 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-grid-c-d89036.js | -                      |  14.76 kB |
+polyfills-css-shim.js                                                                                   | polyfills-css-shim     |  13.27 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-grid-r-221cdc.js | -                      |  13.18 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-step_e-05f55f.js | -                      |  12.62 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-top-na-30ce09.js | -                      |  11.93 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-side-n-5c5b82.js | -                      |  11.01 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-link_e-7f6de3.js | -                      |  10.82 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-button-b47e8e.js | -                      |  10.14 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-accord-02be0f.js | -                      |   9.96 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-side-n-7dc425.js | -                      |   9.43 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-toolti-28887e.js | -                      |   8.99 kB |
+common.js                                                                                               | common                 |   8.84 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-breadc-c13cde.js | -                      |   8.81 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-pagina-9fabc5.js | -                      |   8.81 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-simple-dea479.js | -                      |   8.77 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-badge_-e8e32e.js | -                      |   8.76 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-side-n-37a5fd.js | -                      |   7.87 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-top-na-7e7fbf.js | -                      |   7.40 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-table--c6bc1b.js | -                      |   7.33 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-notifi-1af3ee.js | -                      |   7.06 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-loadin-0ad87c.js | -                      |   6.70 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-progre-1a4525.js | -                      |   6.67 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-flyout-8face4.js | -                      |   6.22 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-table_-147144.js | -                      |   6.17 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-action-2be62e.js | -                      |   6.06 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-popove-2af667.js | -                      |   5.98 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-button-392fb6.js | -                      |   5.62 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-breadc-1f2ca1.js | -                      |   5.29 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-icon-s-7189ed.js | -                      |   5.26 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-avatar-30c082.js | -                      |   5.23 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-search-1e55bc.js | -                      |   5.18 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-multis-9827cb.js | -                      |   4.91 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-grid_e-1b2ba6.js | -                      |   4.52 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-icon_e-7add1f.js | -                      |   4.36 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-tab_entry_js.js  | -                      |   3.86 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-action-250851.js | -                      |   3.68 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-item_e-07e1ed.js | -                      |   3.58 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-text_e-2cf94a.js | -                      |   3.21 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-tag_entry_js.js  | -                      |   3.11 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-header-a33c20.js | -                      |   2.86 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-action-910de6.js | -                      |   2.76 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-steppe-cf4a68.js | -                      |   2.62 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-steppe-508424.js | -                      |   2.57 kB |
+node_modules_group-ui_group-ui-angular_node_modules_group-ui_group-ui_dist_esm_groupui-list_e-4078de.js | -                      |   2.19 kB |
+
+Build at: 2023-09-12T08:48:03.087Z - Hash: 36573ac2dde9661d - Time: 2542ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+67 unchanged chunks
+
+Build at: 2023-09-12T08:48:03.426Z - Hash: 36573ac2dde9661d - Time: 220ms
+
+✔ Compiled successfully.
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/api/books to http://localhost:8080/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 47.30 kB |
+runtime.js          | runtime | 14.13 kB |
+
+65 unchanged chunks
+
+Build at: 2023-09-12T09:12:08.261Z - Hash: af42538a77c7dee2 - Time: 882ms
+
+✔ Compiled successfully.

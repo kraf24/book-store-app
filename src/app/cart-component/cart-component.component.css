@@ -1,0 +1,23 @@
+#cart-book-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#name {
+  padding-right: 50px;
+}
+
+#total-information{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#total {
+  padding-right:  50px;
+}
+
+groupui-card {
+  padding: 5px;
+}

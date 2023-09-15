@@ -1,0 +1,9 @@
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+groupui-card {
+  padding: 5px;
+}
